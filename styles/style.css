@@ -85,7 +85,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 26px;
-  inline-size: 399px;
 }
 
 .title {
@@ -96,7 +95,7 @@ ol {
   text-transform: uppercase;
 }
 
-.title .content__accent {
+.content__accent {
   color: #545050;
 }
 
@@ -104,6 +103,11 @@ ol {
   position: relative;
   block-size: 298px;
   overflow: auto;
+}
+
+.content__list-item {
+  inline-size: 399px;
+  margin: 3px;
 }
 
 .content__list-item:not(:last-child) {
@@ -114,7 +118,6 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
-  margin: 3px;
 }
 
 .content__card-link_current {
@@ -124,6 +127,7 @@ ol {
 .content__video-card {
   display: flex;
   justify-content: start;
+  inline-size: 399px;
 }
 
 .content__video-card:hover {
@@ -150,7 +154,6 @@ ol {
 }
 
 .content__video-card-title {
-  margin-bottom: 6px;
   padding-bottom: 6px;
   font-family: Oswald, sans-serif;
   font-size: 30px;
