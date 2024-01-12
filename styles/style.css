@@ -126,7 +126,7 @@ ol {
 
 .content__video-card {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   inline-size: 399px;
 }
 
